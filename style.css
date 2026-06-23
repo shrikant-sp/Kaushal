@@ -1,0 +1,196 @@
+
+            .navbar {
+                background-color:orangered;
+                border-radius: 8px;
+                align-items: center;
+                padding: 0 20px;
+                gap: 40px;
+            }
+            .navbar.logo{
+                height: 50px;
+                width: auto;
+                border-radius: 50px;
+                padding: 2px 2px;
+                align-items:right;
+            }
+            .navbar ul {
+    display: inline-block;
+    width: 90%;
+    float: right;
+    text-align: right;
+}
+            .navbar li{
+                list-style: none;
+                margin: 13px 0;
+                text-align: right;
+                display: inline-block;
+            }
+            .navbar li a{
+                padding: 6px 16px;
+                text-decoration: none;
+                color: white;
+                text-align: right;
+            }
+            .temple img{
+                width: 100%;
+                height: 650px;
+                display: block;
+                border: black;
+            }
+            .text{
+                position: absolute;
+                top: 50%;
+                left: 50px;
+                transform: translateY(-50%);
+                color: black;
+            }
+            .button{
+                background-color: orangered;
+                color: white;
+                padding: 12px 25px;
+                border-radius: 25px;
+            }
+            .buttonb{
+                background-color:orangered;
+                color: white;
+                padding:12px 25px;
+                border-radius: 25px;
+                text-align: right;
+            }
+            .aboutparent div{
+                width: 45%;
+                margin: 10px;
+                display:inline-block;
+                margin-top: 0px;
+                
+            }
+            .recent{
+                color: orangered;
+                font-size: 32px;
+            };
+            .ever{
+                font-size: 42px;
+             }
+             .aboutparent{
+                text-align: center;
+             }
+             .abouttext{
+                text-align: left;
+             }
+             .checklist{
+                margin-top: 25px;
+             }
+             .checklist ul{
+                list-style: none;
+                padding: 0;
+             }
+             .checklist ul li::before{
+                content:"✔";
+                color: orangered;
+                margin-right: 10px;
+             }        
+             .book-btn{
+                display: inline-block;
+                background: orangered;
+                color: white;
+                padding: 12px 25px;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-top: 20px;
+             }
+             .stats{
+                display: flex;
+                grid-template-columns: repeat(4,1fr);
+                margin-top: 50px;
+             }
+             .box{
+               flex: 1;
+                text-align: center;
+                padding: 50px 20px;
+             }
+             .box h2{
+                font-size: 40px;
+                margin-bottom: 10px;
+             }
+             .box p{
+                font-size: 18px;
+             }
+             .box1{
+                background: orangered;
+                color: white;
+             }
+             .box2{
+                background:#f5ece3;
+                color: black;
+                size: 50px;
+             }
+             .box3{
+                background: #2b0000;
+                color: white;
+             }
+             .box4{
+                background:orangered;
+                color: white;
+             }
+.services{
+    padding:80px 5%;
+    background:#f8f8f8;
+}
+
+.services h4{
+    text-align:center;
+    color:orangered;
+}
+
+.services h1{
+    text-align:center;
+    font-size:50px;
+    margin:15px 0;
+}
+
+.service-container{
+    display:flex;
+    /*justify-content:center;*/
+    gap:10px;
+}
+
+.card{
+    width:33.33%;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h2{
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 20px;
+    line-height:1.7;
+}
+
+.service-btn{
+    display:inline-block;
+    margin:0 15px 20px;
+    padding:12px 25px;
+    background:orangered;
+    color:white;
+    text-decoration:none;
+    border: radius 5px;
+}
+.mail{
+    text-decoration: none;
+    color: black ;
+}
+.copyright{
+    color:orangered;
+}
